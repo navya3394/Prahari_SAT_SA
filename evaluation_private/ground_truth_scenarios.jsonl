@@ -1,0 +1,5 @@
+{"family": "monitoring_gap", "cse_id": "CSE-POWER-001", "asset_id": "CSE-POWER-001-A001", "case_id": null}
+{"family": "monitoring_gap", "cse_id": "CSE-POWER-002", "asset_id": "CSE-POWER-002-A001", "case_id": null}
+{"family": "missing_escalation", "cse_id": "CSE-POWER-001", "asset_id": "CSE-POWER-001-A001", "case_id": "CASE-DEMO-0001"}
+{"family": "missing_escalation", "cse_id": "CSE-POWER-002", "asset_id": "CSE-POWER-002-A001", "case_id": "CASE-DEMO-0142"}
+{"family": "missing_escalation", "cse_id": "CSE-FINANCE-002", "asset_id": "CSE-FINANCE-002-A009", "case_id": "CASE-DEMO-0494"}

@@ -1,0 +1,3 @@
+mapping_id,technique_id,category,expected_source,asset_applicability,version
+MAP-DEMO-1,T1078,identity,identity-logs,server,1
+MAP-DEMO-2,T1059,execution,endpoint-events,server,1

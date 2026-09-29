@@ -1,0 +1,1 @@
+{"model_id":"DEMO-PROCESS-1","version":"1","synthetic_assumptions":true,"completed_trace":["acknowledge","investigate","close"],"conditional_activity":"escalate","note":"Approved exceptions and incomplete traces require contextual review."}

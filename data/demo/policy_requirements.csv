@@ -1,0 +1,2 @@
+policy_id,version,severity_scope,required_steps,escalation_rule,time_limit_hours,effective_from
+DEMO-POLICY-1,1,critical,"acknowledge,investigate,close",required,4,2026-06-03T00:00:00Z

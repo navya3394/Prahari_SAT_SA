@@ -1,0 +1,11 @@
+{
+  "version": "DEMO-POLICY-1",
+  "synthetic_assumptions": true,
+  "critical_case_max_close_hours": 4,
+  "high_case_max_close_hours": 2,
+  "required_steps": ["acknowledge", "investigate", "close"],
+  "critical_requires_escalation": true,
+  "session_gap_minutes": 30,
+  "minimum_peer_entities": 6,
+  "confidence_rubric_version": "CONF-1"
+}

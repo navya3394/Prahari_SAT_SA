@@ -1,0 +1,14 @@
+.venv/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.py[cod]
+.DS_Store
+data/*.sqlite-shm
+data/*.sqlite-wal
+data/prahari.sqlite
+data/prahari.duckdb
+*.log
+.env
+.env.*
+!.env.example

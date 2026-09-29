@@ -1,0 +1,3 @@
+context_id,cse_id,asset_id,start_at,end_at,reason,approved_by_role
+M-CSE-POWER-001-A002,CSE-POWER-001,CSE-POWER-001-A002,2026-08-24T00:00:00Z,2026-08-29T00:00:00Z,approved maintenance,operations manager
+M-CSE-POWER-002-A002,CSE-POWER-002,CSE-POWER-002-A002,2026-08-24T00:00:00Z,2026-08-29T00:00:00Z,approved maintenance,operations manager

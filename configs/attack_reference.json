@@ -1,0 +1,9 @@
+{
+  "version": "DEMO-ATTACK-MAPPING-1",
+  "notice": "Synthetic teaching fixture. Technique labels are illustrative and are not a complete ATT&CK reference.",
+  "mappings": [
+    {"technique_id":"T1078","name":"Valid Accounts","category":"identity","expected_source":"identity-logs"},
+    {"technique_id":"T1059","name":"Command and Scripting Interpreter","category":"execution","expected_source":"endpoint-events"},
+    {"technique_id":"T1562","name":"Impair Defenses","category":"defence-evasion","expected_source":"endpoint-events"}
+  ]
+}

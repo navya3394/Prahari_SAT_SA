@@ -1,0 +1,7 @@
+cse_id,sector,size_band,soc_model,operating_schedule
+CSE-POWER-001,Power,large,managed,24x7
+CSE-TELECOM-001,Telecom,medium,in-house,24x7
+CSE-FINANCE-001,Finance,medium,managed,24x7
+CSE-POWER-002,Power,large,in-house,24x7
+CSE-TELECOM-002,Telecom,medium,managed,24x7
+CSE-FINANCE-002,Finance,medium,in-house,24x7
