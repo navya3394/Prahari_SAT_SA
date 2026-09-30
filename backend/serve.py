@@ -77,8 +77,13 @@ def startup():
     DB.parent.mkdir(parents=True,exist_ok=True)
     db=connect(DB)
     if not db.execute("SELECT 1 FROM users LIMIT 1").fetchone():
-        password=os.getenv("PRAHARI_ADMIN_PASSWORD","Demo@157Change")
+        password=os.getenv("PRAHARI_ADMIN_PASSWORD","1234")
         db.execute("INSERT INTO users VALUES (?,?,?,1)",(os.getenv("PRAHARI_ADMIN_USER","supervisor"),hash_password(password),"administrator"))
+    else:
+        demo_user=db.execute("SELECT password_hash FROM users WHERE username='supervisor'").fetchone()
+        if demo_user and verify_password("Demo@157Change",demo_user["password_hash"]):
+            db.execute("UPDATE users SET password_hash=? WHERE username='supervisor'",(hash_password(os.getenv("PRAHARI_ADMIN_PASSWORD","1234")),))
+    db.commit()
     if not db.execute("SELECT 1 FROM entities LIMIT 1").fetchone():
         db.close(); generate(DB,DEMO,"smoke",42); db=connect(DB)
     if not db.execute("SELECT 1 FROM runs WHERE status LIKE 'completed%' LIMIT 1").fetchone():

@@ -211,7 +211,7 @@ Default demonstration account:
 
 ```text
 Username: supervisor
-Password: Demo@157Change
+Passcode: 1234
 ```
 
 Set `PRAHARI_ADMIN_PASSWORD` before the first launch to choose another local demonstration password.
